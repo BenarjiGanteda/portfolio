@@ -5,6 +5,10 @@
 <meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Benarji Ganteda | AI & ML Enthusiast</title>
 <style>
+.profile-wrap{display:flex;align-items:center;gap:55px}
+.profile-photo{width:330px;height:390px;object-fit:cover;border-radius:24px;border:1px solid #26344b;box-shadow:0 25px 80px rgba(0,0,0,.45),0 0 50px rgba(56,189,248,.08)}
+.hero-copy{flex:1}
+@media(max-width:800px){.profile-wrap{flex-direction:column-reverse;gap:30px}.profile-photo{width:260px;height:315px}}
 :root{--bg:#070b13;--card:#0d1420;--text:#f5f7fb;--muted:#98a4b8;--line:#1b2739;--blue:#38bdf8;--violet:#8b5cf6}
 *{box-sizing:border-box;margin:0;padding:0;scroll-behavior:smooth}
 body{font-family:Inter,Arial,sans-serif;background:var(--bg);color:var(--text);line-height:1.65}
@@ -40,13 +44,16 @@ footer{border-top:1px solid var(--line);padding:28px 0;color:#718096;text-align:
 </div></header>
 
 <main>
-<section class="hero"><div class="container">
+<section class="hero"><div class="container profile-wrap">
+<div class="hero-copy">
 <div class="badge">AI & Machine Learning Enthusiast</div>
 <h1>Hi, I'm <span>Benarji Ganteda</span></h1>
 <h2>AI/ML • Python • Data Analytics</h2>
 <p>B.Tech CSE student specializing in Artificial Intelligence & Machine Learning. I build practical data-driven applications using Python, SQL, machine learning, visualization and modern web technologies.</p>
 <div class="buttons"><a class="btn primary" href="#projects">Explore My Projects →</a><a class="btn" href="mailto:bennubenarji530@gmail.com">View Resume</a></div>
 <div class="social"><a href="mailto:bennubenarji530@gmail.com">✉ Email</a><a href="https://www.linkedin.com/" target="_blank">in LinkedIn</a><a href="https://github.com/" target="_blank">GH GitHub</a></div>
+</div>
+<img class="profile-photo" src="profile.png" alt="Benarji Ganteda professional profile photo">
 </div></section>
 
 <section id="about"><div class="container"><div class="eyebrow">About Me</div><h2 class="title">Building intelligent solutions with technology</h2>
